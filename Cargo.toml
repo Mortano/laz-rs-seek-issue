@@ -1,0 +1,10 @@
+[package]
+name = "laz-rs-seek-issue"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+las = {version = "0.8.1", features = ["laz"] }
